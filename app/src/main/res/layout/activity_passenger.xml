@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/thank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/thank"
+            android:textSize="25dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#010101"
+            android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            android:layout_marginTop="118dp"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#010101"
+            android:layout_below="@+id/thank"
+            android:layout_alignLeft="@+id/driverEmail"
+            android:layout_alignStart="@+id/driverEmail"/>
+
+
+        <TextView
+            android:id="@+id/instruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#010101"
+            android:text="@string/message"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/driverEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#010101"
+            android:layout_marginTop="38dp"
+            android:layout_below="@+id/instruction"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/sending"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sending"
+            android:textSize="20dp"
+            android:textColor="#ffa385"
+            android:layout_weight="0.22"
+            android:textStyle="bold"
+            android:layout_below="@+id/driverEmail" android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>
